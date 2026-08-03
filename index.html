@@ -111,7 +111,7 @@ body{background:linear-gradient(#d9d2c1,#eee9dd 420px)}
 <div class="field"><label for="mainPlaceMode">セット先</label><select id="mainPlaceMode"><option value="auto">どちらでもよい（高い方）</option><option value="A">本拠地側（城・塔）</option><option value="B">拠点側（村・砦・要塞）</option></select></div>
 <label class="check prominent-check"><input id="preferredWeather" type="checkbox"/>目的天候が得意天候（武将攻撃力を2倍）</label>
 </div>
-<details class="advanced-details"><summary>攻撃武将の詳細設定</summary>
+<details class="advanced-details" open><summary>攻撃武将の詳細advanced-details" open><summary>攻撃武将の詳細設定</summary>
 <div class="grid aligned-input-grid">
 <div class="field"><label for="mainName">武将名（任意）</label><input id="mainName" value="攻撃武将"/></div>
 <div class="field"><label for="mainId">カードID（任意）</label><input id="mainId" inputmode="numeric" pattern="[0-9]*" placeholder="攻撃武将自身の檄令を特定する場合"/></div>
@@ -132,7 +132,7 @@ body{background:linear-gradient(#d9d2c1,#eee9dd 420px)}
 <div class="field"><label for="go">伍</label><select id="go"><option value="">なし</option><option value="長">長（本拠地側 +5）</option><option value="豪">豪（拠点側 +5）</option><option value="堅">堅（拠点側 +5）</option><option value="走">走（拠点側 +5）</option><option value="帥">帥（拠点側 +5）</option></select></div>
 </div>
 <div class="base-count" id="costSummary"></div>
-<details class="guard-details" id="guardDetails"><summary>警護デッキ効果（任意）</summary>
+<details class="guard-details" id="guardDetails" open><summary>警護デッキ効果（任意）</summary>
 <label class="check guard-switch"><input id="guardEnabled" type="checkbox"/>警護デッキから通常デッキへ及ぶ効果を使用する</label>
 <div class="grid aligned-input-grid" id="guardFields">
 <div class="field"><label for="guardGekirei">追加檄令</label><input id="guardGekirei" min="0" placeholder="攻撃武将条件反映後の合計" step="1" type="number" value="0"/></div>
